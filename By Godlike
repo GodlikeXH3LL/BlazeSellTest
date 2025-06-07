@@ -8,7 +8,5 @@ local window = library:AddWindow("Enchanted Hub | Ninja", {
 local Main = window:AddTab("Main")
 local folder1 = Main:AddFolder("Main")
 
-folder1:AddSwitch("Blaze Sell Loop", function(state)
-    blazesellloop = state
-    if blazesellloop then
+folder1:AddButton("Blaze Sell", function()
 game.Players.LocalPlayer.HumanoidRootPart.CFrame = CFrame.new(82.5908966, 91245.5547, 120.142555, -0.42250213, -1.06181616e-07, 0.906361938, 2.1098769e-08, 1, 1.26986677e-07, -0.906361938, 7.27752649e-08, -0.42250213)
